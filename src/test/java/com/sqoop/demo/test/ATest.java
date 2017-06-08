@@ -1,10 +1,10 @@
 import com.alibaba.fastjson.JSON;
-import com.ilottery.kylin.Main;
-import com.ilottery.kylin.client.KylinClient;
-import com.ilottery.kylin.entity.BuildType;
-import com.ilottery.kylin.entity.CubeConfig;
-import com.ilottery.kylin.entity.KylinConfig;
-import com.ilottery.kylin.entity.response.KylinJob;
+import org.apache.hadoop.kylin.Main;
+import org.apache.hadoop.kylin.client.KylinClient;
+import org.apache.hadoop.kylin.entity.BuildType;
+import org.apache.hadoop.kylin.entity.CubeConfig;
+import org.apache.hadoop.kylin.entity.KylinConfig;
+import org.apache.hadoop.kylin.entity.response.KylinJob;
 import org.junit.Test;
 
 import java.text.DateFormat;

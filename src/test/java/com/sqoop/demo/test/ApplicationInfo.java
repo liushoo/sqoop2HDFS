@@ -1,10 +1,10 @@
-import com.ilottery.hadoop.entity.App;
-import com.ilottery.hadoop.servlet.Requset;
-import com.ilottery.kylin.client.KylinClient;
-import com.ilottery.kylin.entity.BuildType;
-import com.ilottery.kylin.entity.CubeConfig;
-import com.ilottery.kylin.entity.KylinConfig;
-import com.ilottery.kylin.entity.response.KylinJob;
+import org.apache.hadoop.entity.App;
+import org.apache.hadoop.servlet.Requset;
+import org.apache.hadoop.client.KylinClient;
+import org.apache.hadoop.kylin.entity.BuildType;
+import org.apache.hadoop.kylin.entity.CubeConfig;
+import org.apache.hadoop.kylin.entity.KylinConfig;
+import org.apache.hadoop.kylin.entity.response.KylinJob;
 
 import java.text.DateFormat;
 import java.text.ParseException;
