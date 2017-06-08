@@ -3,7 +3,7 @@
 // (powered by Fernflower decompiler)
 //
 
-package com.ilotterytech.retrofit;
+package org.apache.hadoop.servlet;
 
 import com.ilotterytech.retrofit.json.FastJsonConverterFactory;
 import com.squareup.okhttp.MediaType;

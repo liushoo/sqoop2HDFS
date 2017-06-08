@@ -1,4 +1,4 @@
-package com.ilottery.kylin.entity;
+package com.hadoop.kylin.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

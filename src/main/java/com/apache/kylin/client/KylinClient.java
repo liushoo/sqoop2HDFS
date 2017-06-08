@@ -1,14 +1,14 @@
-package com.ilottery.kylin.client;
+package org.apache.hadoop.kylin.client;
 
 import com.alibaba.fastjson.JSON;
-import com.ilottery.kylin.entity.CubeConfig;
-import com.ilottery.kylin.entity.KylinConfig;
-import com.ilottery.kylin.entity.response.BuildResponse;
+import org.apache.hadoop.kylin.entity.CubeConfig;
+import org.apache.hadoop.kylin.entity.KylinConfig;
+import org.apache.hadoop.kylin.entity.response.BuildResponse;
 
-import com.ilottery.kylin.entity.response.KylinJob;
+import org.apache.hadoop.kylin.entity.response.KylinJob;
 
-import com.ilotterytech.retrofit.RetrofitClient;
-import com.ilotterytech.retrofit.fastjson.converter.FastJsonConverterFactory;
+import org.apache.hadoop.retrofit.RetrofitClient;
+import org.apache.hadoop.retrofit.fastjson.converter.FastJsonConverterFactory;
 import com.squareup.okhttp.MediaType;
 import com.squareup.okhttp.RequestBody;
 import retrofit.Call;
@@ -18,7 +18,7 @@ import retrofit.Retrofit;
 import java.io.IOException;
 
 /**
- * Created by hxd on 2017/6/6.
+ * Created by liush on 2017/6/6.
  */
 public class KylinClient extends RetrofitClient{
 

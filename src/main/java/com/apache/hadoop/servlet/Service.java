@@ -1,6 +1,6 @@
-package com.ilottery.hadoop.servlet;
+package org.apache.hadoop.servlet;
 
-import com.ilottery.hadoop.entity.Application;
+import org.apache.hadoop.entity.Application;
 import retrofit.Call;
 import retrofit.http.GET;
 import retrofit.http.Path;

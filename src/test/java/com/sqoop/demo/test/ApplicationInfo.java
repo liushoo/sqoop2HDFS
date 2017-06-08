@@ -32,15 +32,6 @@ public class ApplicationInfo {
         System.out.println("===jobUuid===="+app.getProgress()+"==="+app.getFinalStatus());
         //System.out.println(JSON.toJSONString(kylinClient.buildCube(cubeConfig)));
 
-      // scheduleAtFixedRate(scheduledThreadPool,kylinClient,jobUuid);
-       /* KylinJob kylinJob=new KylinJob();
-        kylinJob.setUuid(jobUuid);
-        kylinJob=kylinClient.jobResume(kylinJob);
-        String jobStatus=kylinJob.getJobStatus();
-        System.out.println("===="+kylinJob.getRelatedCube());
-        System.out.println(kylinJob.getName()+"========="+jobStatus);
-        System.out.println("=================");*/
-        //System.out.println(kylinClient.buildCube(cubeConfig));
     }
 
 

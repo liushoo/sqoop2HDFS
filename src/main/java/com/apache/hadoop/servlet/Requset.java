@@ -1,13 +1,13 @@
-package com.ilottery.hadoop.servlet;
+package com.hadoop.hadoop.servlet;
 
 import com.alibaba.fastjson.JSON;
-import com.ilottery.hadoop.entity.Application;
-import com.ilottery.hadoop.entity.ResoonseJob;
-import com.ilottery.kylin.entity.CubeConfig;
-import com.ilottery.kylin.entity.KylinConfig;
-import com.ilottery.kylin.entity.response.BuildResponse;
-import com.ilottery.kylin.entity.response.KylinJob;
-import com.ilotterytech.retrofit.fastjson.converter.FastJsonConverterFactory;
+import org.apache.hadoop.entity.Application;
+import org.apache.hadoop.entity.ResoonseJob;
+import org.apache.hadoop.kylin.entity.CubeConfig;
+import org.apache.hadoop.kylin.entity.KylinConfig;
+import org.apache.hadoop.kylin.entity.response.BuildResponse;
+import org.apache.hadoop.kylin.entity.response.KylinJob;
+import org.apache.hadoop.retrofit.fastjson.converter.FastJsonConverterFactory;
 import com.squareup.okhttp.MediaType;
 import com.squareup.okhttp.RequestBody;
 import retrofit.Call;

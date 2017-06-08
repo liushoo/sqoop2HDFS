@@ -1,4 +1,4 @@
-package com.ilottery.kylin;
+package com.hadoop.kylin;
 
 import java.text.DateFormat;
 import java.util.Calendar;

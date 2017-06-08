@@ -1,4 +1,4 @@
-package com.ilottery.kylin.client;
+package org.apache.hadoop.kylin.client;
 
 import com.ilottery.kylin.entity.response.BuildResponse;
 import com.ilottery.kylin.entity.response.KylinJob;
@@ -7,7 +7,7 @@ import retrofit.Call;
 import retrofit.http.*;
 
 /**
- * Created by hxd on 2017/6/6.
+ * Created by liush on 2017/6/6.
  */
 public interface KylinService {
 
