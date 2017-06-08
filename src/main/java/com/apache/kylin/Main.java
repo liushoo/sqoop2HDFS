@@ -1,4 +1,4 @@
-package com.hadoop.kylin;
+package org.apache.hadoop.kylin;
 
 import java.text.DateFormat;
 import java.util.Calendar;
