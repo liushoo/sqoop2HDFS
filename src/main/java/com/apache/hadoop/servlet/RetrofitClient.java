@@ -5,7 +5,7 @@
 
 package org.apache.hadoop.servlet;
 
-import com.ilotterytech.retrofit.json.FastJsonConverterFactory;
+import org.apache.hadoop.json.FastJsonConverterFactory;
 import com.squareup.okhttp.MediaType;
 import java.io.IOException;
 import retrofit.Call;
