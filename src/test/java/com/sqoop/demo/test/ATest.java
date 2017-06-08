@@ -56,7 +56,7 @@ public class ATest {
         service.scheduleAtFixedRate(new Runnable() {
             @Override
             public void run() {
-                KylinConfig kylinConfig=new KylinConfig("http://192.168.200.21:7070/kylin/","kylin1_sala","Basic QURNSU46S1lMSU4=");
+                KylinConfig kylinConfig=new KylinConfig("http://192.168.100.121:7070/kylin/","kylin1_sala","Basic QURNSU46S1lMSU4=");
                 KylinClient kylinClient=new KylinClient(kylinConfig);
 
                 long start = new Date().getTime();
