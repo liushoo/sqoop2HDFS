@@ -1,4 +1,4 @@
-package com.ilottery.kylin.entity.response;
+package org.apache.hadoop.kylin.entity.response;
 
 import lombok.Getter;
 import lombok.Setter;
